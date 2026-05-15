@@ -117,7 +117,7 @@ func main() {
 		shelfLife:        24,
 	}
 	m2 := Medicine{
-		name:             "Ibuprofeno",
+		name:             "sana sana",
 		manufacturer:     "MedicinasEc",
 		manufacturerDate: time.Now(),
 		shelfLife:        12,
@@ -149,7 +149,7 @@ func main() {
 
 	fmt.Printf("Nombre original del jarabe: %s\n", inventarioJarabes[0].GetName())
 
-	inventarioJarabes[0].SetName("Ibuprofeno ")
+	inventarioJarabes[0].SetName("sana sana 2")
 
 	fmt.Printf("Nombre modificado del jarabe: %s\n", inventarioJarabes[0].GetName())
 
